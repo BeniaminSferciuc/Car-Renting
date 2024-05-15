@@ -1,0 +1,11 @@
+Solicită utilizatorului să introducă cele două date.
+Transformă șirurile de caractere în date folosind strptime() pentru fiecare.
+Compară cele două date pentru a te asigura că prima este înaintea celei de-a doua.
+Calculează diferența de timp între cele două date în secunde folosind difftime().
+Converti diferența de timp în zile.
+
+Sistem de rezervare: Implementează un sistem de rezervare în care clienții pot rezerva mașini pentru anumite perioade de timp. Atunci când o mașină este rezervată, aceasta ar trebui să devină indisponibilă pentru alte rezervări în perioada specificată.
+Actualizare automată a disponibilității: După fiecare rezervare, actualizează automat disponibilitatea mașinilor în funcție de perioada de timp a rezervării. Dacă o mașină este rezervată pentru o anumită perioadă, aceasta nu ar trebui să fie disponibilă pentru alte rezervări care se suprapun cu acea perioadă.
+Gestionarea perioadelor de rezervare și disponibilitate: Fii atent la gestionarea perioadelor de rezervare și disponibilitatea mașinilor. Ai nevoie de o logică care să verifice dacă mașinile sunt disponibile pentru rezervări înainte de a accepta o rezervare nouă. De asemenea, asigură-te că mașinile sunt marcate ca disponibile după ce perioada de rezervare a expirat și mașina a fost returnată.
+Actualizare regulată a stocului de mașini: Monitorizează și actualizează regulat stocul de mașini pentru a asigura că sunt disponibile pentru rezervare numai mașinile care sunt fizic disponibile pentru închiriere.
+Notificări pentru clienți și administratori: Trimite notificări clienților și administratorilor pentru a le informa cu privire la rezervările efectuate, perioadele de rezervare și alte detalii relevante.
